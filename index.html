@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- Aqui você tem que fazer o "import" de forma resumida -->
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- aqui embaixo você ta importando um modelo de classes e simbulos--> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+   <!-- Minha evolução no desenho-->
+    <link rel="stylesheet" href="style.css">
+    <!--Minha evolução no desenho-->
+    <title>Aqui é o web</title>
+<!-- aqui você coloca o titulo do arquivo-->
+    <title> Sim </title>
+</head>
+<!-- aqui a genet começa a fazer o corpo e dar vida ao titulo principal-->
+<body>
+<!-- aqui nós alinhamos no centro superior-->
+    <header class="container text-center"> 
+   <!-- perceba que nessa imagem eu usei o circle, então a imagem vai virar uma bola-->
+        <img src="https://i.pinimg.com/736x/e9/43/75/e94375502ed971f94ceeaf8f0cbf6feb.jpg" alt="sim" class="rounded-circle" width="150" height="150" srcset="">
+<!--    titulo  -->
+<p class="lead"> Colors</p>
+<!--    subtitulo   -->
+<h1>Minha evolução no desenho</h1>
+<!-- aqui é o titulo do subtitulo-->
+<p>aqui você verá como meus desenhos evoluiram com o tempo</p>
+
+<!-- começamos a usar os divs-->
+    <div>
+<!--    titulo das tags -->
+        <p1> Eu tenho os seguintes progamas em meu codigo </p1> 
+
+<!-- tags -->
+<p class="badge bg-secondary">HTML</p>
+<p class="badge bg-secondary">CSS</p>
+<p class="badge bg-secondary">JavaScript</p>
+<p class="badge bg-secondary">Scratch</p>
+
+</div>
+</header>
+<!--   aqui a gente usa o container, se você aumentar os numeros muda o modelo, pode ser o tamanhou ou curva  -->
+ <!-- aqui é o retangulo também-->
+<main class="container mt-5">
+    <h2>Desenhos mais rescentes</h2>
+   <div class="row">
+<!-- mude o md-6 para menor ou para maior >6 = maior 6< menor-->
+    <div class="col-md-6">
+    <!-- aqui a gente usa o card para esse modelo retangular em tudo na imagem-->
+        <div class="card">
+        <img src="https://i.pinimg.com/736x/b0/55/5a/b0555aa01067169e92ef7d21042c7ab8.jpg" class="card-img-top">
+    <!-- corpo da carta ou seja, titulo e o texto -->
+        <div class="card-body">
+        <h5 class="card-title"> Miss Universe </h5>
+        <p2 class="card-text"> Primeiro desenho digital totalmente finalizado e postado" </p2>
+        <!-- botão azul do google que abre outra aba-->
+        <button type="button" class="btn btn-link btn-hover" data-bs-toggle="modal" data-bs-target="#modal1">veja</button>
+
+    </div>
+    </div>
+</div>
+<!--  repetimos o de cima com a diferença que o #modal agora é a versão 3, modal é literalmente um modelo de botão-->
+  <!-- tamo usando o modal como uma "lista"-->
+<div class="col-md-6">
+<div class="card">
+<img src="https://i.pinimg.com/564x/10/73/93/10739351377f68f3e7b7bbf2a83fcfff.jpg" card="card-img-top">
+    <div class="card-body">
+
+        <h5 class="card-title"> Spider Gwen </h5>
+
+<p class="card-text">Fan art da personagem Spider Gwen.</p>
+
+<button type="button" class="btn btn-link btn-hover" data-bs-toggle="modal" data-bs-target="#modal3">teste</button>
+
+
+        
+</div>
+</div>
+</div>
+
+</main>
+<!-- aqui a gente pega o modal como a lista então caso você precise-->
+ <!-- escolher o card que você queira que o texto apareça quando você clique no card-->
+<div class="modal" id="modal1" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">titulo cringe</h5>
+               <!-- classe, e fonte do texto ali no aria-label-->
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <!-- aqui são os paragrafos, fotos e os links para seila oq vc vai usar-->
+            </div>
+            <div class="modal-body">
+                <p2>Nesse desenho eu trabalhei perspectiva, além de trocar o cabelo dela pra uma imagem do universo, fazendo uma brincadeira com o título "miss universe</p2>
+                <img src="https://i.pinimg.com/736x/b0/55/5a/b0555aa01067169e92ef7d21042c7ab8.jpg" alt="Miss Universe"width="350" weight="350">
+            </div>
+            <div class="modal-footer">
+                
+                <a href="seu link">coloca seu link pra algo</a>
+                <a href="seu link">seu link para algo</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- aqui é o card 2 -->
+<div class="modal" id="modal3" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">seu titulo cringe</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p2>Decidi trabalhar perspectiva fazendo uma personagem que eu gosto mundo que é a spider Gwen.</p2>
+                <img src="https://i.pinimg.com/564x/10/73/93/10739351377f68f3e7b7bbf2a83fcfff.jpg" alt="Spider Gwen"width="350" weight="350">           
+             </div>
+            <div class="modal-footer">
+                <a href="seu link">coloca seu link pra algo</a>
+                <a href="seu link">seu link para algo</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- aqui é o rodape né, então bota suas coisas ai e tamo junto-->
+<footer class="container py-5">
+    <h2>Entre em contato</h2>
+    <div>
+        <!-- mude esse link pro seu github ou seila-->
+        <a href="">links</a>
+    </div>
+    <!-- copyright-->
+    <p class="my-5 text-center">© Copyright 2024. Produzido por bolas grandes</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
